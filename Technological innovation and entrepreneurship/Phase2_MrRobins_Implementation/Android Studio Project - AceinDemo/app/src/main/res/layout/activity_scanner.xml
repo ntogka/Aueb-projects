@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Advanced Scanner Service"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        >
+        <TextView
+            android:id="@+id/textView10"
+            android:text="Web Banking API"
+
+
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/editText10"
+            android:inputType="textEmailAddress"
+            android:text="MGSM RFID Scan Services"
+            android:background="@drawable/custom_edittext2"
+            android:textCursorDrawable="@drawable/color_curson"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textSize="15sp"
+
+            android:gravity="start" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:text="Transponder Data"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_edittext2"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+
+            android:textAlignment="center"
+            android:textCursorDrawable="@drawable/color_curson"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="EPC Security Code"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/editText3"
+            android:inputType="number"
+            android:background="@drawable/custom_edittext2"
+            android:textCursorDrawable="@drawable/color_curson"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <TextView
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="200dp"
+
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Reservation ID"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/editText4"
+            android:inputType="textPersonName"
+            android:background="@drawable/custom_edittext2"
+            android:textCursorDrawable="@drawable/color_curson"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="(numeric)"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="200dp"
+
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Customer ID"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_edittext2"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textCursorDrawable="@drawable/color_curson"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Verification Procedure Details"
+
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editText6"
+            android:inputType="textMultiLine"
+            android:background="@drawable/custom_edittext2"
+            android:textCursorDrawable="@drawable/color_curson"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:scrollbars = "vertical"
+            android:maxLength="600"
+            android:textSize="15sp"
+            android:gravity="start" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/button2"
+
+            android:text="ΕΝΕΡΓΟΠΟΙΗΣΗ"
+
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            />
+        <Button
+
+            android:id="@+id/button"
+
+            android:text="ΕΠΙΒΕΒΑΙΩΣΗ"
+            android:layout_width="200dp"
+            android:textSize="14sp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+</LinearLayout>

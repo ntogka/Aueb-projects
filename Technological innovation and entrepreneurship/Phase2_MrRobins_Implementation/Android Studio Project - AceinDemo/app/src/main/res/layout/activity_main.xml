@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="138dp"
+        android:maxLength="20"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/ic_action_user"
+        android:ems="10"
+
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+
+        android:singleLine="true"
+        android:textCursorDrawable="@drawable/color_curson"
+        android:textSize="18sp"
+        android:layout_marginLeft="0dp"
+        android:drawableLeft="@drawable/ic_action_user" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:maxLength="20"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textCursorDrawable="@drawable/color_curson"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_action_pass">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_connect" />
+</LinearLayout>
+
