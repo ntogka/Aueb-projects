@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Image.cpp
+  Generating Code...
+Image.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  neg.vcxproj -> C:\Users\Alexander\Desktop\ppm\x64\Debug\neg.exe
+  neg.vcxproj -> C:\Users\Alexander\Desktop\ppm\x64\Debug\neg.pdb (Partial PDB)
