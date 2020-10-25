@@ -1,0 +1,17 @@
+﻿  filter.cpp
+..\filter.cpp(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\filter.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\filter.cpp(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\filter.cpp(34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\filter.cpp(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\filter.cpp(36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\filter.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+..\filter.cpp(78): warning C4018: '<': signed/unsigned mismatch
+  FilterGamma.cpp
+  FilterLinear.cpp
+  Image.cpp
+..\Image.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 420 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  filter.vcxproj -> C:\Users\Alexander\Desktop\ppm\Release\filter.exe

@@ -1,0 +1,16 @@
+﻿  Image.cpp
+c:\users\alexander\desktop\ppm\image.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  FilterLinear.cpp
+  FilterGamma.cpp
+  filter.cpp
+c:\users\alexander\desktop\ppm\filter.cpp(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alexander\desktop\ppm\filter.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alexander\desktop\ppm\filter.cpp(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alexander\desktop\ppm\filter.cpp(34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alexander\desktop\ppm\filter.cpp(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alexander\desktop\ppm\filter.cpp(36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alexander\desktop\ppm\filter.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\alexander\desktop\ppm\filter.cpp(78): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  filter.vcxproj -> C:\Users\Alexander\Desktop\ppm\Debug\filterd.exe
+  filter.vcxproj -> C:\Users\Alexander\Desktop\ppm\Debug\filterd.pdb (Partial PDB)

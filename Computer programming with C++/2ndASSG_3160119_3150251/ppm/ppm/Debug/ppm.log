@@ -1,0 +1,3 @@
+﻿  ppm.cpp
+c:\users\alexander\desktop\ppm\ppm\ppm.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  ppm.vcxproj -> C:\Users\Alexander\Desktop\ppm\ppm\ppm_d.lib
