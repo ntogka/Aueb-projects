@@ -1,6 +1,0 @@
-﻿<ΓΙΑΝΝΗΣ ΜΠΑΝΟΣ> - <3140126>
-<ΜΑΡΙΝΑ ΝΤΟΓΚΑ> - <3160119>
-Endpoint: <database-1.cmuzmdhlptgu.us-east-1.rds.amazonaws.com>
-Username: <examiner>
-Password: 
-Database: <Nina>
